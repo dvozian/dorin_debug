@@ -1,6 +1,6 @@
-x = input()
-y = input()
-z = input()
+m = input()
+n = input()
+p = input()
 
 def lone_sum(a, b, c):
 	if a == b and b != c:
@@ -16,6 +16,6 @@ def lone_sum(a, b, c):
 		return 0 
 	else: 
 		return a+b+c
-print(lone_sum(x, y, z))
+print(lone_sum(m, n, p))
 
 
